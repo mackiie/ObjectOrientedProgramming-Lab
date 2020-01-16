@@ -5,6 +5,6 @@ public class Main
 
     public static void main(String[] args)
     {
-	// write your code here
+        System.out.println(Integer.parseInt(args[0]) + Integer.parseInt(args[1]));
     }
 }
