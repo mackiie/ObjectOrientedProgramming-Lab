@@ -32,6 +32,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579150365801</updated>
-      <workItem from="1579150373369" duration="7000" />
+      <workItem from="1579150373369" duration="157000" />
     </task>
     <servers />
   </component>
