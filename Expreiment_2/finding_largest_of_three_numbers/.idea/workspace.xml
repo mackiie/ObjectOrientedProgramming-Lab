@@ -26,7 +26,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="finding_largest_of_three_numbers" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 3" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579148575915</updated>
-      <workItem from="1579148581586" duration="1059000" />
+      <workItem from="1579148581586" duration="1189000" />
     </task>
     <servers />
   </component>
@@ -69,26 +69,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="479" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579149779860">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1579149779860" />
     <state x="804" y="312" key="FileChooserDialogImpl" timestamp="1579149101869">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="804" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1579149101869" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1579149671132">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1579149782243">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1579149671132" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1579149671132">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1579149782243" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1579149782242">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1579149671132" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1579149671132">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1579149782242" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1579149782242">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1579149671132" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1579149671132">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1579149782242" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1579149782243">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1579149671132" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1579149782243" />
     <state x="533" y="200" key="SettingsEditor" timestamp="1579149161841">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
