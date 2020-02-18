@@ -2,7 +2,7 @@ package dot.questionmark;
 
 public class Main {
 
-    int studentage;
+    int studentAge;
 
     public Main(String name)
     {
@@ -11,12 +11,12 @@ public class Main {
 
     public void setAge(int age)
     {
-        studentage = age;
+        studentAge = age;
     }
 
     public int getAge()
     {
-        return studentage;
+        return studentAge;
     }
 
     public static void main(String[] args)
