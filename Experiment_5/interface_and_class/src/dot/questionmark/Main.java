@@ -3,7 +3,7 @@ package dot.questionmark;
 interface A
 {
     int meth1();
-    int meth2()
+    int meth2();
 }
 
 class MyClass implements A
@@ -34,7 +34,7 @@ public class Main
     public static void main(String[] args)
     {
         MyClass c = new MyClass(7,2);
-        
+
         System.out.println(c.meth1());
         System.out.println(c.meth2());
     }
