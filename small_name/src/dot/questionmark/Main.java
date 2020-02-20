@@ -20,7 +20,7 @@ class guest
     {
         String[] words = name.split(" ");
         System.out.print("Welcome ");
-        if(gender == 'm')
+        if(gender == 'm' || gender == 'M')
         {
             System.out.print("Mr. ");
         }
@@ -33,7 +33,8 @@ class guest
             System.out.print(words[i].toCharArray()[0] + ". ");
         }
         System.out.print(words[words.length-1]);
-        System.out.println(" You are " + visitor + "th visitor.");
+        System.out.println("\nYou are " + visitor + "th visitor.");
+        System.out.println("--------------------------------------");
     }
 
 }
@@ -49,8 +50,12 @@ public class Main
 //        System.out.print("Enter your gender : ");
 //        char gender = s.next().charAt(0);
 
-        guest g1 = new guest("dsdgs gsg sg g rg wr g rg erg" , 'm');
+        guest g1 = new guest("Dsdgs Gsg Sg G Rg Wr G Rg Erg" , 'm');
 
-        guest g2 = new guest("apple sdsf sdfsdf sdfsdfse sdfsefd", 'f');
+        guest g2 = new guest("Apple Sdsf Sdfsdf Sdfsdfse Sdfsefd", 'f');
+
+        guest g3 = new guest("Awdcncno Swrvenru Dcibcrou Fcdwecn Gjkcwckw",'m');
+
+        guest g4 = new guest("Qsdcnkc", 'f');
     }
 }
