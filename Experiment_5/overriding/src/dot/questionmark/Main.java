@@ -2,8 +2,19 @@ package dot.questionmark;
 
 interface fun
 {
-    int division();
-    int modules();
+    void division();
+    void modules();
+}
+
+class fun2 implements fun
+{
+    @Override
+    void division()
+    {
+        System.out.println("Hello");
+    }
+
+
 }
 
 public class Main
