@@ -5,14 +5,13 @@ import java.util.Scanner;
 class Account
 {
     private String customerName;
-    private static int accountNumber = 10000;
+    int accountNumber;
     protected char type;
     protected int balance;
 
     Account()
     {
         customerName = "";
-        accountNumber++;
         balance = 0;
     }
 
@@ -20,7 +19,7 @@ class Account
     {
         Scanner s1 = new Scanner(System.in);
         System.out.print("Enter customer name : ");
-        accountNumber = s1.nextInt();
+        customerName = s1.nextLine();
         System.out.print("Enter balance : ");
         balance = s1.nextInt();
     }
@@ -50,6 +49,7 @@ class savingAccount extends Account
     savingAccount()
     {
         type = 's';
+        accountNumber++;
     }
 
     int compoundInterest()
@@ -93,6 +93,7 @@ class currentAccount extends Account
     currentAccount()
     {
         type = 'c';
+        accountNumber += 1;
     }
 
     int minimumBalance()
