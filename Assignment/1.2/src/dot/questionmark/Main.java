@@ -1,5 +1,13 @@
 package dot.questionmark;
 
+class myCustomException extends Exception
+{
+    public myCustomException(String s)
+    {
+        super(s);
+    }
+}
+
 class Rectangle
 {
     private double length;
@@ -13,8 +21,23 @@ class Rectangle
 
     Rectangle(double length, double width)
     {
-        this.length = length;
-        this.width = width;
+        try
+        {
+            if(length>0.0 && length<20.0 && width>0.0 && width<20.0)
+            {
+                this.length = length;
+                this.width = width;
+            }
+            else
+            {
+                throw new myCustomException("Select a smaller length and width.");
+            }
+        }
+        catch (myCustomException exception)
+        {
+            System.out.println("ello");
+            System.out.println(exception.getMessage());
+        }
     }
 
     double getLength()
@@ -70,6 +93,7 @@ public class Main
         myRectangle.displayStatistics();
         myRectangle.setLength(31);
         myRectangle.setWidth(13);
+        System.out.println("");
         myRectangle.displayStatistics();
     }
 }
