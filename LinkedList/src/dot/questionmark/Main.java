@@ -1,8 +1,5 @@
 package dot.questionmark;
 
-import org.w3c.dom.Node;
-
-import java.util.LinkedList;
 
 public class Main
 {
@@ -74,6 +71,28 @@ public class Main
         return list;
     }
 
+    public static Main deleteFromLast(Main list)
+    {
+        Node currentNode = list.head;
+        Node previousNode = null;
+
+        if (currentNode == null)
+        {
+            System.out.println("Linked list is empty.");
+        }
+        else
+        {
+            while (currentNode.next != null)
+            {
+                previousNode = currentNode;
+                currentNode = currentNode.next;
+            }
+            previousNode.next = null;
+        }
+
+        return list;
+    }
+
     public static void printList(Main list)
     {
         Node currentNode = list.head;
@@ -91,6 +110,8 @@ public class Main
     {
         Main linkedList = new Main();
 
+        //linkedList = deleteFromLast(linkedList);
+
         linkedList = insert(linkedList, 1);
         linkedList = insert(linkedList, 2);
         linkedList = insert(linkedList, 3);
@@ -106,6 +127,9 @@ public class Main
 
         deleteByKey(linkedList, 3);
         deleteByKey(linkedList, 7);
+
+        linkedList = deleteFromLast(linkedList);
+        linkedList = deleteFromLast(linkedList);
 
         printList(linkedList);
     }
