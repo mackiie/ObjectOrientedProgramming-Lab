@@ -71,6 +71,13 @@ class Lion extends Animal
     }
 }
 
+class Zoo
+{
+    public void addAnimal()
+    {
+    }
+}
+
 public class Main
 {
     public static void main(String[] args)
